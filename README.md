@@ -1,7 +1,7 @@
-<!-- [![npm (scoped)](https://img.shields.io/npm/v/@meetmistry0/svelte-theme-toggle)](https://www.npmjs.com/package/@meetmistry0/svelte-theme-toggle)
-![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@meetmistry0/svelte-theme-toggle) -->
+# svelte-theme-toggle 
 
-# svelte-theme-toggle
+[![npm](https://img.shields.io/npm/v/svelte-theme-toggle)](https://www.npmjs.com/package/svelte-theme-toggle)
+
 A dead simple way to implement a dark theme toggle in your Svelte/SvelteKit application. 
 
 # Getting-Started
