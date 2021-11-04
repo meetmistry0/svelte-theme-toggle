@@ -6,7 +6,7 @@ A dead simple way to implement a dark theme toggle in your Svelte/SvelteKit appl
 
 # Getting-Started
 ```
-npm i @meetmistry0/svelte-theme-toggle
+npm i svelte-theme-toggle
 ```
 
 # Usage
@@ -14,7 +14,7 @@ npm i @meetmistry0/svelte-theme-toggle
 Import the package in `<script>` in a svelte component and then declare it in the body.
 ```html
 <script>
-	import ThemeToggle from "@meetmistry0/svelte-theme-toggle";
+	import ThemeToggle from "svelte-theme-toggle";
 </script>
 
 <main>
