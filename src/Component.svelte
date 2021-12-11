@@ -66,7 +66,7 @@
         position: absolute;
         right: 0;
         top: 0;
-        transition: 0.4s;
+        transition: ease 0.4s;
     }
     .slider:before {
         background-color: #fffaa8;
@@ -76,7 +76,7 @@
         height: 18px;
         left: 2px;
         position: absolute;
-        transition: 0.4s;
+        transition: ease 0.4s;
         width: 18px;
     }
     input:checked + .slider {
