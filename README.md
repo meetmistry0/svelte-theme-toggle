@@ -5,6 +5,9 @@
 
 A dead simple way to implement a dark theme toggle in your Svelte/SvelteKit application. 
 
+# Demo
+[Try it out in Code Sandbox](https://codesandbox.io/s/svelte-theme-toggle-9g91r?file=/App.svelte)
+
 # Getting-Started
 ```
 npm i svelte-theme-toggle
@@ -42,7 +45,7 @@ Use the following parameters in your global styles to actually change the colors
 :global(body) {
         background-color: var(--bg);
         color: var(--text-color);
-        transition: 0.4s;  /* Change the transition time by altering this property */
+        transition: ease 0.5s;  /* Change the transition time by altering this property */
 }
 ```
 
