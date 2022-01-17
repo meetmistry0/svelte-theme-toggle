@@ -2,31 +2,31 @@
     import { onMount } from "svelte";
 
     onMount(() => {
-        const toggleSwitch = document.querySelector(
-            '.theme-switch input[type="checkbox"]'
-        );
+        var toggler = document.querySelector(
+                '.theme-switch input[type="checkbox"]'
+            ),
+            root = document.documentElement,
+            currentTheme = localStorage.getItem("theme") || "dark";
 
-        const currentTheme = localStorage.getItem("theme");
+        root.setAttribute("data-theme", currentTheme);
 
-        if (currentTheme) {
-            document.documentElement.setAttribute("data-theme", currentTheme);
-
-            if (currentTheme === "dark") {
-                toggleSwitch.checked = true;
-            }
+        if (currentTheme == "light") {
+            toggler.removeAttribute("checked");
+        } else {
+            toggler.checked = "true";
         }
 
-        function switchTheme(e) {
-            if (e.target.checked) {
-                document.documentElement.setAttribute("data-theme", "dark");
+        function toggleTheme(e) {
+            if (this.checked) {
+                root.setAttribute("data-theme", "dark");
                 localStorage.setItem("theme", "dark");
             } else {
-                document.documentElement.setAttribute("data-theme", "light");
+                root.setAttribute("data-theme", "light");
                 localStorage.setItem("theme", "light");
             }
         }
 
-        toggleSwitch.addEventListener("change", switchTheme, false);
+        toggler.addEventListener("change", toggleTheme, false);
     });
 </script>
 
