@@ -55,9 +55,11 @@
         position: relative;
         width: 50px;
     }
+
     .theme-switch input {
         display: none;
     }
+
     .slider {
         background-color: #96dcee;
         bottom: 0;
@@ -68,6 +70,7 @@
         top: 0;
         transition: ease 0.4s;
     }
+
     .slider:before {
         background-color: #fffaa8;
         border: 2px solid #f5eb71;
@@ -79,17 +82,21 @@
         transition: ease 0.4s;
         width: 18px;
     }
+
     input:checked + .slider {
         background-color: #6b7abb;
     }
+
     input:checked + .slider:before {
         background-color: #fff;
         border: 2px solid #d6d6d6;
         transform: translateX(24px);
     }
+
     .slider.round {
         border-radius: 34px;
     }
+
     .slider.round:before {
         border-radius: 50%;
     }
