@@ -5,8 +5,7 @@
 
 A dead simple way to implement a dark theme toggle in your Svelte/SvelteKit application. 
 
-# Demo
-[Try it out in Code Sandbox](https://codesandbox.io/s/svelte-theme-toggle-9g91r?file=/App.svelte)
+## [Demo](https://replit.com/@meetmistry0/SvelteThemeToggle)
 
 # Getting-Started
 ```
