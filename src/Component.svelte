@@ -30,17 +30,6 @@
     });
 </script>
 
-<svelte:head>
-    <script>
-        // This is to prevent a brief white flash when page is reloaded while it is using dark theme.
-        if (localStorage.theme)
-            document.documentElement.setAttribute(
-                "data-theme",
-                localStorage.theme
-            );
-    </script>
-</svelte:head>
-
 <main>
     <label class="theme-switch" for="checkbox">
         <input type="checkbox" id="checkbox" />
