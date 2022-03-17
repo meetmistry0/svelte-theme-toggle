@@ -3,6 +3,10 @@
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
+  "description": "Simple way to implement a dark theme toggle in Svelte/SvelteKit.",
+  "version": "1.1.1",
+  "author": "Meet Mistry",
+  "license": "MIT",
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
@@ -17,8 +21,16 @@
     "src",
     "dist"
   ],
-  "description": "Simple way to implement a dark theme toggle in your Svelte/SvelteKit application.",
-  "version": "1.1.0",
-  "author": "Meet Mistry",
-  "license": "MIT"
+  "keywords": [
+    "svelte",
+    "sveltekit",
+    "dark mode",
+    "theme",
+    "dark theme",
+    "theme toggle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meetmistry0/svelte-theme-toggle.git"
+  }
 }
