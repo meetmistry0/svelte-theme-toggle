@@ -5,7 +5,7 @@
 
 A dead simple way to implement a dark theme toggle in your Svelte/SvelteKit application. 
 
-## [Demo](https://replit.com/@meetmistry0/SvelteThemeToggle)
+## [Demo](https://svelte-theme-toggle.vercel.app/)
 
 # Getting-Started
 ```
@@ -48,4 +48,4 @@ Use the following parameters in your global styles to actually change the colors
 }
 ```
 
-### It is highly recommended to use this component on [`__layout.svelte`](https://kit.svelte.dev/docs#layouts) or it's derivatives.
+### It is highly recommended to use this component on [`__layout.svelte`](https://kit.svelte.dev/docs/layouts) or it's derivatives.
